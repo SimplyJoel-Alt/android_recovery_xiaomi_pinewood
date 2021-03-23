@@ -22,7 +22,7 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_C_INCLUDES := \
     system/core/base/include \
     system/core/init
-LOCAL_SRC_FILES := init_pine.cpp
-LOCAL_MODULE := libinit_pine
+LOCAL_SRC_FILES := init_pinewood.cpp
+LOCAL_MODULE := libinit_pinewood
 
 include $(BUILD_STATIC_LIBRARY)
